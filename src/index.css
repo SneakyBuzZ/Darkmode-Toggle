@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: rgb(195, 195, 195);
+}
+
+.container {
+    height: 27rem;
+}
+
+.after\:content-\[\'\'\]::after {
+    --tw-content: '';
+    content: var(--tw-content);
+    margin-top: 2px;
+}
